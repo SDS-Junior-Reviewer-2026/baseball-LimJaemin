@@ -26,8 +26,10 @@ public class GameTest {
 	}
 	
 	@Test
-	public void 입력값_자리수가_세자리가_아닐_경우() {
-
+	public void throwExceptionWhenInputLengthIsUnmatched() {
+		assertThrows(IllegalArgumentException.class, () -> {
+			game.guess("12");
+		});
 	}
 	
 	@Test
