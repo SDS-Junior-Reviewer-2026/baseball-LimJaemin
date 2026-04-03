@@ -28,11 +28,11 @@
             <version>5.14.1</version>
             <scope>test</scope>
         </dependency>
-        <!-- https://mvnrepository.com/artifact/org.assertj/assertj-core -->
+        <!-- Source: https://mvnrepository.com/artifact/org.assertj/assertj-core -->
         <dependency>
             <groupId>org.assertj</groupId>
             <artifactId>assertj-core</artifactId>
-            <version>3.26.3</version>
+            <version>3.27.7</version>
             <scope>test</scope>
         </dependency>
         <!-- https://mvnrepository.com/artifact/org.mockito/mockito-junit-jupiter -->
