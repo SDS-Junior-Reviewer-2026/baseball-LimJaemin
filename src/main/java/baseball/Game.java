@@ -2,8 +2,16 @@ package baseball;
 
 public class Game {
 
-    public void guess(String guessNumber) {
+    public String question;
+
+    public GuessResult guess(String guessNumber) {
         assertIllegalArgument(guessNumber);
+        if(guessNumber.equals(question)){
+            return new GuessResult(true, 3, 0);
+        }
+        else {
+            return null;
+        }
     }
 
     private void assertIllegalArgument(String guessNumber) {
